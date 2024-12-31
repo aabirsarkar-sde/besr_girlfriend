@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href = './form.css'>
+
+</head>
+<body>
+
+    <form action=""></form>
+        <h1>Login Page</h1>
+        <div>
+            <label for="Fname">First Name : </label>
+            <input type="text" id="Fname" placeholder="Enter your name" >
+        </div><br>
+        <div>
+            <label for="Lname">Last Name : </label>
+            <input type="text" id="Lname" placeholder="Enter your last name">
+        </div><br>
+        <div>
+            <label for="">Age : </label>
+            <input type="number">
+        </div> <br>
+        <div>
+            <label for="">DOB : </label>
+            <input type="date" min="2000-01-01" max="2010-02-01">
+            <input type="time">
+        </div><br>
+        <div>
+            <label for="">Email</label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="pass">Password : </label>
+            <input type="password" id="pass" required>
+        </div> <br>
+        <div>
+            <h3>Gender</h3>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="">Female</label>
+            <input type="radio" name="gender">
+        </div>
+        <div>
+            <h3>Subject : </h3>
+            <label for="">Web</label>
+            <input type="checkbox">
+
+            <label for="">DSA</label>
+            <input type="checkbox">
+
+            <label for="">DBMS</label>
+            <input type="checkbox">
+        </div>
+        <div>
+            <label for="">Language</label>
+            <select>
+                <option value="EN">English</option>
+                <option value="HI">Hindi</option>
+                <option value="TA" selected>Tamil</option>
+                <option value="MA">Bengali</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="">Color</label>
+            <input type="color">
+        </div><br>
+
+        <div>
+            <label for="">Upload File</label>
+            <input type="file">
+        </div><br>
+
+
+
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+
+    
+</body>
+</html>
